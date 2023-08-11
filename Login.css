@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto);
+
+*{
+    font-family: "Roboto";
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6dceb;
+}
+
+body .form-login {
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+
+body .form-login input {
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #cbced6;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+body .form-login h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+body .form-login p {
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+
+body .form-login p .link-lupa-password {
+    text-decoration: none;
+    color: #999aa4;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body .form-login p .link-lupa-password:hover {
+    text-decoration: none;
+    color: #0015ff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body .form-login .btn-hello{
+    padding: 5px 20px;
+    font-size: 12px;
+    background-color: #2516f5;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+body .form-login .btn-hello:hover{
+    padding: 5px 20px;
+    font-size: 12px;
+    border: none;
+    background-color: #000b6e;
+    border-radius: 50px;
+}
+
+body .form-login a .btn-sign{
+    padding: 5px 20px;
+    font-size: 12px;
+    background-color: #cbced6;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+body .form-login .btn-sign:hover{
+    padding: 5px 20px;
+    font-size: 12px;
+    border: none;
+    background-color: #999aa4;
+    border-radius: 50px;
+}
+
+hr {
+    color: #999aa4;
+    background-color: #999aa4;
+    height: 1px;
+    border: none;
+}
+
+body .form-login a .btn-google{
+    padding: 5px 20px;
+    font-size: 12px;
+    background-color: #181818;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 135px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: auto;
+}
